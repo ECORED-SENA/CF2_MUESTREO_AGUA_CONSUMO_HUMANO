@@ -2,18 +2,18 @@
   &-1
     animation: float 1.5s ease-in-out infinite alternate
     position: absolute
-    top: 2%
-    left: -5%
+    top: 50%
+    left: 5%
   &-2
     animation: floatZoom 5s ease-in-out infinite alternate
     position: absolute
-    top: 50%
-    right: 20%
+    top: 30%
+    right: 5%
   &-3
     animation: floatRotate 5s ease-in-out infinite alternate
     position: absolute
-    top: 75%
-    left: 10%
+    top: 70%
+    left: 60%
 
 @keyframes float
   0%
@@ -33,7 +33,7 @@
   0% 
     transform: translateY(0px) scale(1)
   50%
-    transform: translateY(-35px) scale(1.05)
+    transform: translateY(-30px) scale(1.05)
   100% 
     transform: translateY(0px) scale(1)
   
@@ -75,8 +75,360 @@ figcaption
 
 
 /// AJUSTE ESPACIO RESPOSINVE
-/// TITULOS TERCER NIVEL
+.espacio___movil_1
+  @media screen and (max-width: 1200px)
+    margin-top: -1rem !important
+
+.espacio___movil_2
+  @media screen and (max-width: 1200px)
+    margin-top: -2rem !important
+
+.espacio___movil_3
+  @media screen and (max-width: 1200px)
+    margin-top: 1rem !important
+
+.espacio___movil_4
+  @media screen and (max-width: 1200px)
+    margin-top: 2rem !important
+  
+
 /// FONDOS
+.fondo___slider
+  background-image: url("../assets/curso/temas/img13.png")
+  background-repeat: no-repeat
+  background-size: cover
+  margin-inline: -3.2rem !important
+  padding: 3rem 0rem
+
+.fondo___img
+  background-image: url("../assets/curso/intro/img1.png")
+  background-repeat: no-repeat
+  background-size: 1145px
+  margin-inline: -3.2rem !important
+  margin-top: -1.5rem
+  display: inline-block
+  @media screen and (min-width: 1400px)
+    background-size: 1325px
+  
+.fondo___img_1
+  background-image: url("../assets/curso/temas/img20.png")
+  background-repeat: no-repeat
+  background-size: 1145px
+  margin-inline: -3.2rem !important
+  @media screen and (min-width: 1400px)
+    background-size: 1325px
+
+.fondo___color
+  background-image: url("../assets/curso/temas/img2.png")
+  background-repeat: no-repeat
+  background-size: cover
+  margin-inline: -3.2rem !important
+
+.fondo___color_1
+  background-image: url("../assets/curso/temas/img8.png")
+  background-repeat: no-repeat
+  background-size: cover
+  margin-inline: -3.2rem !important
+
+.fondo___color_2
+  background-image: url("../assets/curso/temas/img11.png")
+  background-repeat: no-repeat
+  background-size: cover
+  margin-inline: -3.2rem !important
+
+.fondo___color_3
+  background-image: url("../assets/curso/temas/img53.png")
+  background-repeat: no-repeat
+  background-size: cover
+  margin-inline: -3.2rem !important
+
+.fondo___color_4
+  background-image: url("../assets/curso/temas/img55.png")
+  background-repeat: no-repeat
+  background-size: cover
+  margin-inline: -3.2rem !important
+
 /// INTRO
-/// TEMA 
-/// BLOQUE  -----------------------
+.estilo___caja_1
+  background-color: $color-adicional-2
+  padding: 2rem
+
+.ajuste___espacio_1 p
+  margin-top: 2rem !important
+  @media screen and (max-width: 1200px)
+    margin-top: 0rem !important
+
+/// TEMA 1
+.estilo___caja_2
+  background-color: $color-adicional-3
+  img
+    margin-left: -0.7rem !important
+  p
+    margin-left: -2rem !important
+    padding-right: 1rem 
+    @media screen and (max-width: 1200px)
+      margin-left: 0rem !important
+      padding: 1.5rem 
+
+.tabla-a
+  width: 100% !important
+  overflow-x: auto
+  -webkit-overflow-scrolling: touch
+  table
+    border: none !important
+    width: 100%
+    min-width: 500px
+  thead
+    border: none !important
+    background-color: $color-acento-contenido !important
+  tbody
+    border: none !important
+    background-color: white !important
+  td
+    border: none
+    padding: 1rem
+  th
+    padding: 1.5rem
+.ajuste-border-tabla
+  border-right: 1px solid #707070!important
+.ajuste-color-tabla
+  background-color: $color-adicional-12 !important
+.texto-right
+  text-align: right
+.texto-left
+  text-align: left
+  
+.estilo___caja_3
+  background-color: $color-adicional-4
+  border-radius: 5px
+  padding: 2rem
+
+.ajuste___tabla
+  table
+    border: 1px solid #E1E1E1 !important
+  thead
+    border: 1px solid #E1E1E1 !important
+    background-color: $color-adicional-5 !important
+  tr
+    border: 1px solid #E1E1E1 !important
+  th
+    border: 1px solid #E1E1E1 !important
+.ajuste___linea_right
+  border-right: 1px solid #E1E1E1 !important
+.ajuste___i
+  font-size: 1.7rem
+
+.estilo___caja_4
+  background-color: $color-adicional-6
+  border-radius: 11px
+  padding: 1.5rem
+  p
+    color: white 
+  h5
+    color: $color-secundario
+  
+
+
+/// TEMA 2
+
+.estilo___caja_5
+  background-color: $color-adicional-7
+  padding: 0rem 1rem 0rem 0rem 
+  img
+    margin-left: -0.7rem !important
+  @media screen and (max-width: 1200px)
+    padding: 1.5rem 
+
+/// BLOQUE 1 -----------------------
+.estilo___caja_6
+  background-color: $color-adicional-2
+  padding: 1.5rem
+  border-radius: 8px
+
+.estilo___i
+  margin-left: 1.3rem
+.fa-tint
+  color: #6296B1
+
+.estilo___caja_7
+  background-color: $color-adicional-8
+  padding: 2.5rem
+  border-radius: 12px
+  @media screen and (max-width: 1200px)
+    padding: 1.5rem 
+
+
+
+/// TEMA 3
+.slyder-a__item
+  padding: 1rem !important
+.slyder-a__btn--atrs
+  background-color: $color-acento-botones
+.slyder-a__btn--sigt
+  background-color: $color-acento-botones
+.slyder-a__bullets__item 
+  background-color: #FCD2AD
+  border: 0px
+.slyder-a__bullets__item--active
+  background-color: $color-acento-contenido
+.slyder-a__bullets__item
+  @media screen and (max-width: 768px)
+    width: 6px !important
+    height: 6px !important
+.ajuste-slider
+  width: 100% !important
+  border-radius: 20px
+  margin: 0rem !important
+  padding: 3rem !important
+  background-color: $white
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4)
+  p
+    padding: 0rem 2rem
+  h4
+    padding: 0rem 2rem
+  @media screen and (max-width: 576px)
+    padding: 1rem 2rem 1rem 2rem !important
+  @media screen and (max-width: 768px)
+    margin: 2rem 1rem 2rem 2rem 
+    padding: 2rem 2rem 1rem 2rem 
+  @media screen and (max-width: 1200px)
+    margin: 4rem 0rem 4rem 2rem
+    p
+      padding: 0rem
+    h4
+      padding: 0rem
+  @media screen and (min-width: 1400px)
+    margin: 2rem 3rem
+    padding: 2rem 
+
+.estilo___caja_7_1
+  background-color: $color-adicional-6
+  padding: 1.5rem
+  border-radius: 20px
+  h4
+    color: white
+.tarjeta-audio__texto
+  color: $color-sistema-texto !important
+  margin-bottom: 2rem !important
+.tarjeta-audio
+  background-color: $color-adicional-2
+  border-radius: 10px
+  padding: 2rem
+.tarjeta-audio.color-acento-contenido .tarjeta-audio__input input[type=range]
+  background: rgb(247, 126, 22)
+  background-image: linear-gradient(#F77E16, #F77E16)
+
+
+/// TEMA 4
+
+.estilo___caja_8
+  background-color: $color-adicional-9
+  padding: 1.5rem
+  border-radius: 8px
+
+/// BLOQUE 1 -----------------------
+.tarjeta.color-acento-botones
+  background-color: white
+  padding: 3rem 2.5rem !important
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3)
+  p
+    color: $color-sistema-texto
+.horizontal-scroll__wrapper
+  padding: 1rem 0.5rem
+.fa-chevron-right
+  color: $color-acento-botones
+.fa-chevron-left
+  color: $color-acento-botones
+.estilo-text
+  text-align: center
+.slyder-f__btn i
+  font-size: 1.2rem
+  background-color: #FFEA77
+  color: $color-sistema-texto
+  border-radius: 50px
+  padding: 0.8rem 1rem
+.slyder-f__btn i:hover
+  background-color: $color-acento-botones
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3)
+  border: 1px solid white
+  transition: opacity 0.3s ease-in-outbox-shadow 0.3s ease-in-out
+
+.estilo___caja_9
+  background-color: $color-adicional-10
+  padding: 1.5rem
+  @media screen and (min-width: 1400px)
+    padding: 2.5rem 3rem
+.ajuste___espacio_2
+  margin-top: -5rem !important
+  @media screen and (max-width: 1200px)
+    margin-top: 0rem !important
+
+.estilo___caja_10
+  background-color: $color-adicional-4
+  padding: 0rem 1rem 0rem 0rem
+  img
+    margin-left: -0.7rem !important
+  @media screen and (max-width: 1200px)
+    padding: 1.5rem 
+
+/// BLOQUE 2 -----------------------
+.acordion__accion__btn--a
+  background-color: $color-acento-botones
+.acordeonA
+  position: relative
+  background-color: $color-adicional-9
+  width: 100%
+  @media screen and (max-width: 1200px)
+    width: 100%
+  p
+    padding-left: 3.5rem
+.acordion__activo
+  background-color: $color-adicional-2
+  p
+    padding-left: 4.4rem
+.ajuste-cajaAcordion
+  padding: 0rem 1rem 0rem 0rem
+
+.estilo___caja_10
+  background-color: $color-adicional-7
+  @media screen and (max-width: 1200px)
+    padding: 1.5rem 
+
+.estilo___caja_11
+  background-color: $color-adicional-11
+  padding: 1.5rem 2rem
+  border-radius: 23px
+  h3
+    text-align: center
+  @media screen and (max-width: 1200px)
+    padding: 1.5rem
+
+/// BLOQUE 5 -----------------------
+.estilo___caja_12
+  background-color: $color-adicional-11
+  padding: 3rem 2rem 2rem 2rem
+  @media screen and (max-width: 1200px)
+    padding: 1.5rem
+
+.estilo___ul
+  li
+    margin-left: -1rem
+
+.estilo___caja_13
+  background-color: $color-adicional-13
+  padding: 0.9rem 2rem 0.4rem 2rem
+  color: white
+  p
+    color: white
+  @media screen and (max-width: 1200px)
+    padding: 1.5rem
+  @media screen and (min-width: 1400px)
+    padding: 2.5rem 3rem 1.8rem 3rem 
+
+.estilo___caja_14
+  background-color: $color-adicional-3
+  padding: 1.5rem
+  justify-content: center
+  display: flex
+  @media screen and (max-width: 1200px)
+    padding: 1.5rem
