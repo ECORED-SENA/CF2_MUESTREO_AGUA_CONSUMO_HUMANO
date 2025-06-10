@@ -16,7 +16,7 @@
             .row.h-100.justify-content-center.align-items-center
               .col-lg-6.mb-4
                 h4 Grifos
-                p.mb-0 Cuando se trata de grifos de agua es necesario retirar los filtros que tenga, posteriormente se limpia con alcohol y se flamea el grifo mientras está cerrado, antes de tomar la muestra se debe dejar correr el agua por al menos tres (3) minutos, luego se destapa el frasco, se llena y se cierra.
+                p.mb-0 Cuando se trata de grifos de agua es necesario retirar los filtros que tenga, posteriormente se limpia con alcohol y se flamea el grifo mientras está cerrado, antes de tomar la muestra, se debe dejar correr el agua por al menos tres (3) minutos; luego se destapa el frasco, se llena y se cierra.
               .col-lg-6
                 figure.d-none.d-xl-block
                   img(src='@/assets/curso/temas/img14.svg', alt='' style="max-width: 500px").m-auto
@@ -24,7 +24,7 @@
             .row.h-100.justify-content-center.align-items-center
               .col-lg-6.mb-4
                 h4 Red de distribución
-                p.mb-0 Mediante muestreo manual se debe proceder con la recolección de la muestra, el punto debe estar identificado según lo indicado en la resolución 811 de 2008, para el caso de toma de muestra microbiológica el accesorio de descarga debe desinfectarse con alcohol y si es posible flamearse para evitar contaminación de la muestra.
+                p.mb-0 Mediante muestreo manual se debe proceder con la recolección de la muestra; el punto debe estar identificado según lo indicado en la resolución 811 de 2008. Para el caso de toma de muestra microbiológica, el accesorio de descarga debe desinfectarse con alcohol y, si es posible, flamearse para evitar contaminación de la muestra.
               .col-lg-6
                 figure.d-none.d-xl-block
                   img(src='@/assets/curso/temas/img15.svg', alt='' style="max-width: 500px").m-auto
@@ -49,7 +49,7 @@
             h4.mb-4 Lo invitamos a escuchar el siguiente <em>Podcast</em>:
             TarjetaAudio.color-acento-contenido.mb-3(
               texto="Tipos de muestras de agua para análisis de calidad"
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/componentes/audios/Podcast_CF2_muestreo_agua_consumo_humano.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
       .col-xl-auto

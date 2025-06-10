@@ -42,7 +42,7 @@
 
     .fondo___color_4
       .px-5
-        p.mb-4 Los aspectos generales del muestreo y los resultados de los parámetros in situ pueden consignarse en un informe de muestreo, el cual puede incluir la siguiente información:
+        p.mb-4 Los aspectos generales del muestreo y los resultados de los parámetros <em>in situ</em> pueden consignarse en un informe de muestreo, el cual puede incluir la siguiente información:
           .row.justify-content-center
             .col-xl-10
               .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")

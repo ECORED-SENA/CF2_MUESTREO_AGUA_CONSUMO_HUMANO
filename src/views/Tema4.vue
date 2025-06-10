@@ -63,7 +63,7 @@
           .col-xl
             .row.align-items-center.m-0
               .col-xl-12
-                p.mb-4 De acuerdo con el ICONTEC (2004), en su Guía Técnica Colombiana [GTC] 100, guía para los procedimientos de cadena de custodia de muestras los rótulos de las muestras pueden:
+                p.mb-4 De acuerdo con el ICONTEC (2004), en su Guía Técnica Colombiana [GTC] 100, guía para los procedimientos de cadena de custodia de muestras, los rótulos de las muestras pueden:
               .col-xl-12.estilo___caja_9(data-aos="fade-right")
                 p Tener forma de etiquetas adhesivas, marcas (rótulos) o una combinación de ambas.
                 p.mb-0 Las etiquetas suelen ser removibles para formar parte del proceso de registros posteriores; sin embargo, existe el riesgo de una remoción inapropiada o pérdida. Los rótulos o marcas, por su parte, generalmente se elaboran en papel resistente al agua con tinta indeleble y se adhieren al frasco o recipiente de la muestra. Como alternativa, también se puede escribir directamente sobre el recipiente con tinta indeleble, aunque esta opción no es la más recomendada (p. 5).
@@ -76,7 +76,7 @@
         figure.d-none.d-xl-block
           img(src='@/assets/curso/temas/img3.svg', alt='' style="max-width: 85px").m-auto
       .col-xl
-        p.mb-0 La información sobre las operaciones de muestreo es una parte fundamental para asegurar la calidad del programa de muestreo y base fundamental en la cadena de custodia de las muestras, ya que esto genera confianza en los resultados de los análisis aplicados a las muestras. Por tal razón la información consignada en los rótulos de los recipientes y en los registros de toma de muestras debe ser legible, veraz y trazable.
+        p.mb-0 La información sobre las operaciones de muestreo es una parte fundamental para asegurar la calidad del programa de muestreo y base fundamental en la cadena de custodia de las muestras, ya que esto genera confianza en los resultados de los análisis aplicados a las muestras. Por tal razón, la información consignada en los rótulos de los recipientes y en los registros de toma de muestras debe ser legible, veraz y trazable.
 
     .fondo___color_1
       .px-5
@@ -107,7 +107,7 @@
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 4.2 Procedimiento de muestreo
 
-    p.mb-4 Para asegurar que la muestra sea representativa y que se sigan los procedimientos establecidos por los laboratorios y normatividad vigente, se debe seguir el siguiente paso a paso:
+    p.mb-4 Para asegurar que la muestra sea representativa y que se sigan los procedimientos establecidos por los laboratorios y la normatividad vigente, se debe seguir el siguiente paso a paso:
 
     .bg--img_03.mb-5
       .row.h-100.align-items-center
