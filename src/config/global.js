@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Muestreo de agua para consumo humano',
     Description:
-      'El componente formativo se describen las temáticas relacionadas con el muestreo de agua para consumo humanos, teniendo en cuenta los puntos de muestreo, la ubicación, el objetivo del muestreo, frecuencias, entre otros aspectos que se deben tener en cuenta de acuerdo a la normatividad y protocolos vigentes.  ',
+      'El componente formativo se describen las temáticas relacionadas con el muestreo de agua para consumo humano, teniendo en cuenta los puntos de muestreo, la ubicación, el objetivo del muestreo, frecuencias, entre otros aspectos que se deben tener en cuenta de acuerdo a la normatividad y protocolos vigentes.  ',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
