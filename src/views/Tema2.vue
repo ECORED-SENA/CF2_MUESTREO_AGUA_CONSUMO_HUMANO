@@ -111,7 +111,7 @@
                     td.ajuste-border-tabla 2.000.001 a 4.000.000
                     td 72
                   tr.ajuste-color-tabla
-                    td.ajuste-border-tabla Mas de 4.000.001
+                    td.ajuste-border-tabla Más de 4.000.001
                     td 132
 
     <!-- BLOQUE 3 -->

@@ -249,26 +249,26 @@
             caption Fuente: NTC ISO 5667 -3, CORNARE, 2023.
             thead
               tr
-                th.ajuste-border-tabla Variable
-                th.ajuste-border-tabla Unidad
-                th.ajuste-border-tabla Preservación
-                th.ajuste-border-tabla Tipo muestreo
-                th Tiempo de conservación
+                th.ajuste-border-tabla(width="150px") Variable
+                th.ajuste-border-tabla(width="150px") Unidad
+                th.ajuste-border-tabla(width="150px") Preservación
+                th.ajuste-border-tabla(width="150px") Tipo muestreo
+                th(width="150px") Tiempo de conservación
             tbody
               tr.ajuste-color-tabla
-                td.ajuste-border-tabla Cloro Residual
+                td.ajuste-border-tabla Cloro residual
                 td.ajuste-border-tabla mg/L
-                td.ajuste-border-tabla Análisis Inmediato
+                td.ajuste-border-tabla Análisis inmediato
                 td.ajuste-border-tabla Simple
                 td Inmediato / 15 min
               tr
-                td.ajuste-border-tabla Coliformes Fecales 
+                td.ajuste-border-tabla Coliformes fecales 
                 td.ajuste-border-tabla UFC/100mL
                 td.ajuste-border-tabla Refrigerar ≤ 6 °C 
                 td.ajuste-border-tabla Simple
                 td 24 horas
               tr.ajuste-color-tabla
-                td.ajuste-border-tabla Coliformes Totales
+                td.ajuste-border-tabla Coliformes totales
                 td.ajuste-border-tabla UFC/100mL
                 td.ajuste-border-tabla Refrigerar ≤ 6 °C 
                 td.ajuste-border-tabla Simple
@@ -283,19 +283,19 @@
                 td.ajuste-border-tabla Conductividad
                 td.ajuste-border-tabla µS/cm
                 td.ajuste-border-tabla Refrigerar ≤ 6 °C 
-                td.ajuste-border-tabla Simple, Compuesto
+                td.ajuste-border-tabla Simple, compuesto
                 td 28 días
               tr
-                td.ajuste-border-tabla Color Aparente
+                td.ajuste-border-tabla Color aparente
                 td.ajuste-border-tabla UPC
                 td.ajuste-border-tabla Refrigerar ≤ 6 °C 
-                td.ajuste-border-tabla Simple, Compuesto
+                td.ajuste-border-tabla Simple, compuesto
                 td 48 horas
               tr.ajuste-color-tabla
-                td.ajuste-border-tabla Color Real
+                td.ajuste-border-tabla Color real
                 td.ajuste-border-tabla m-1
                 td.ajuste-border-tabla Refrigerar ≤ 6 °C 
-                td.ajuste-border-tabla Simple, Compuesto
+                td.ajuste-border-tabla Simple, compuesto
                 td 48 h
               tr
                 td.ajuste-border-tabla Acidez
@@ -304,7 +304,7 @@
                 td.ajuste-border-tabla Simple
                 td 24 h / 14 d
               tr.ajuste-color-tabla
-                td.ajuste-border-tabla Alcalinidad Total
+                td.ajuste-border-tabla Alcalinidad total
                 td.ajuste-border-tabla mg/L
                 td.ajuste-border-tabla Refrigerar  ≤ 6 °C 
                 td.ajuste-border-tabla Simple
@@ -313,43 +313,43 @@
                 td.ajuste-border-tabla Cloruros
                 td.ajuste-border-tabla mg/L
                 td.ajuste-border-tabla No requiere preservantes ni refrigeración
-                td.ajuste-border-tabla Simple, Compuesto
+                td.ajuste-border-tabla Simple, compuesto
                 td 28 días
               tr.ajuste-color-tabla
-                td.ajuste-border-tabla Dureza Cálcica
+                td.ajuste-border-tabla Dureza cálcica
                 td.ajuste-border-tabla mg/L
-                td.ajuste-border-tabla Acidificar con HNO3 o H2SO4 a pH <2. Refrigerar ≤ 6 °C   
+                td.ajuste-border-tabla Acidificar con HNO3 o H2SO4 a pH < 2. Refrigerar ≤ 6 °C   
                 td.ajuste-border-tabla Simple, Compuesto
                 td 6 meses
               tr
-                td.ajuste-border-tabla Dureza Total
+                td.ajuste-border-tabla Dureza total
                 td.ajuste-border-tabla mg/L
-                td.ajuste-border-tabla Acidificar con HNO3 o H2SO4 a pH <2. Refrigerar ≤ 6 °C   
-                td.ajuste-border-tabla Simple, Compuesto
+                td.ajuste-border-tabla Acidificar con HNO3 o H2SO4 a pH < 2. Refrigerar ≤ 6 °C   
+                td.ajuste-border-tabla Simple, compuesto
                 td 6 meses
               tr.ajuste-color-tabla
-                td.ajuste-border-tabla Carbono Orgánico Total
+                td.ajuste-border-tabla Carbono orgánico total
                 td.ajuste-border-tabla mg/L
-                td.ajuste-border-tabla Analizar inmediatamente o adicionar de 0,4 mL de HCL o H2SO4 a pH=2 Refrigeración ≤ 6°C
-                td.ajuste-border-tabla Simple, Compuesto
+                td.ajuste-border-tabla Analizar inmediatamente o adicionar de 0,4 mL de HCL o H2SO4 a pH = 2. Refrigeración ≤ 6°C
+                td.ajuste-border-tabla Simple, compuesto
                 td 7 días
               tr
-                td.ajuste-border-tabla Metales Totales
+                td.ajuste-border-tabla Metales totales
                 td.ajuste-border-tabla mg/L
                 td.ajuste-border-tabla Metales Totales: acidular con HNO3 pH < 2. Refrigerar ≤ 6 °C   
-                td.ajuste-border-tabla Simple, Compuesto
+                td.ajuste-border-tabla Simple, compuesto
                 td 6 meses
               tr.ajuste-color-tabla
                 td.ajuste-border-tabla Nitratos
                 td.ajuste-border-tabla mg/L
-                td.ajuste-border-tabla Analizar lo antes posible, Refrigerar ≤ 6 °C 
-                td.ajuste-border-tabla Simple, Compuesto
+                td.ajuste-border-tabla Analizar lo antes posible. Refrigerar ≤ 6 °C 
+                td.ajuste-border-tabla Simple, compuesto
                 td 48 h
               tr
                 td.ajuste-border-tabla Nitritos
                 td.ajuste-border-tabla mg N-NO2-/L
-                td.ajuste-border-tabla Analizar lo antes posible, Refrigerar ≤ 6 °C 
-                td.ajuste-border-tabla Simple, Compuesto
+                td.ajuste-border-tabla Analizar lo antes posible. Refrigerar ≤ 6 °C 
+                td.ajuste-border-tabla Simple, compuesto
                 td 48 h
               tr.ajuste-color-tabla
                 td.ajuste-border-tabla Ortofosfatos
@@ -358,28 +358,28 @@
                 td.ajuste-border-tabla Simple
                 td 48 h
               tr
-                td.ajuste-border-tabla Oxigeno Disuelto
+                td.ajuste-border-tabla Oxigeno disuelto
                 td.ajuste-border-tabla mg/L
-                td.ajuste-border-tabla Análisis Inmediato
+                td.ajuste-border-tabla Análisis inmediato
                 td.ajuste-border-tabla Simple
                 td Inmediato / 15 min
               tr.ajuste-color-tabla
                 td.ajuste-border-tabla pH
                 td.ajuste-border-tabla Unidades pH 
-                td.ajuste-border-tabla Análisis Inmediato
+                td.ajuste-border-tabla Análisis inmediato
                 td.ajuste-border-tabla Simple
                 td Inmediato / 15 min
               tr
                 td.ajuste-border-tabla Sulfatos
                 td.ajuste-border-tabla mg/L
                 td.ajuste-border-tabla Refrigerar ≤ 6 °C 
-                td.ajuste-border-tabla Simple, Compuesto
+                td.ajuste-border-tabla Simple, compuesto
                 td 28 d
               tr.ajuste-color-tabla
                 td.ajuste-border-tabla Turbidez
                 td.ajuste-border-tabla NTU
-                td.ajuste-border-tabla Analizar el mismo día; almacenar en la oscuridad hasta 24 h, Refrigerar ≤ 6 °C 
-                td.ajuste-border-tabla Simple, Compuesto
+                td.ajuste-border-tabla Analizar el mismo día; almacenar en la oscuridad hasta 24 h. Refrigerar ≤ 6 °C 
+                td.ajuste-border-tabla Simple, compuesto
                 td 24 h / 48 h
                 
     <!-- BLOQUE 4 -->
@@ -404,7 +404,7 @@
             .row.h-100.justify-content-center.align-items-center
               .col-lg-6.mb-4
                 h4 Temperatura adecuada
-                p.mb-0 La nevera debe tener suficiente hielo para mantener una temperatura de 4°C hasta su llegada al laboratorio.
+                p.mb-0 La nevera debe tener suficiente hielo para mantener una temperatura de 4 °C hasta su llegada al laboratorio.
               .col-lg-6
                 figure.d-none.d-xl-block
                   img(src='@/assets/curso/temas/img44.svg', alt='' style="max-width: 500px").m-auto
@@ -454,7 +454,7 @@
     #t_4_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 4.5 Recepción de la muestra
 
-    p.mb-4 Una vez realizada la toma de la muestra de agua y transportada bajo las condiciones previamente descritas, se debe efectuar su recepción teniendo en cuenta los siguientes aspectos:
+    p.mb-4 Una vez realizada la toma de la muestra de agua y transportada bajo las condiciones previamente descritas, se debe efectuar su recepción, teniendo en cuenta los siguientes aspectos:
 
     .row.align-items-center.mb-5.m-0.estilo___caja_12(data-aos="zoom-in")
       .col-xl
@@ -479,8 +479,8 @@
         p.mb-3 Requisitos de envases según tipo de análisis:
         <ul class="fa-ul estilo___ul">
           <li class="mb-3"><span class="fa-li"><i class="fas fa-tint"></i></span>Para análisis microbiológicos: utilizar frascos de vidrio esterilizados con tapa de rosca no metálica o, alternativamente, bolsas plásticas estériles y desechables.</li>
-          <li class="mb-3"><span class="fa-li"><i class="fas fa-tint"></i></span>El volumen de muestra para análisis microbiológicos debe ocupar aproximadamente el 90% de la capacidad del envase.</li>
-          <li class="mb-0"><span class="fa-li"><i class="fas fa-tint"></i></span>Para análisis fisicoquímicos, el envase debe llenarse completamente (100%).</li>
+          <li class="mb-3"><span class="fa-li"><i class="fas fa-tint"></i></span>El volumen de muestra para análisis microbiológicos debe ocupar aproximadamente el 90 % de la capacidad del envase.</li>
+          <li class="mb-0"><span class="fa-li"><i class="fas fa-tint"></i></span>Para análisis fisicoquímicos, el envase debe llenarse completamente (100 %).</li>
         </ul>
     
     p.mb-0.estilo___caja_14(data-aos="zoom-in") Una vez la muestra es recibida en el laboratorio, la responsabilidad de su custodia recae sobre el analista o encargado.

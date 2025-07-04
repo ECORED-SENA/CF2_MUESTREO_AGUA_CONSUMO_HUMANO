@@ -20,10 +20,10 @@ export default {
       tema: 'Aspectos técnicos del muestreo de agua de consumo humano',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Aplicar los aspectos técnicos fundamentales del muestreo de agua destinada al consumo humano, incluyendo los procedimientos de recolección, conservación, transporte y análisis de muestras, con el fin de garantizar la representatividad, la calidad y la confiabilidad de los resultados obtenidos.',
+        '<b> Objetivo:</b> aplicar los aspectos técnicos fundamentales del muestreo de agua destinada al consumo humano, incluyendo los procedimientos de recolección, conservación, transporte y análisis de muestras, con el fin de garantizar la representatividad, la calidad y la confiabilidad de los resultados obtenidos.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!..',
-      titulo_reprobado: 'VUELVA A INTENTARLO..',
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
